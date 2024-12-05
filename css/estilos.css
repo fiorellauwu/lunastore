@@ -1,0 +1,33 @@
+:root {
+    --color-rosa: #d187cb; /* Color barra principal */
+    --color-pink: #ffc0cb; /* Color barra secundaria*/
+}
+.bg-pink {
+    background-color: var(--color-pink) /* sustituye */
+}
+
+.bg-custom {
+    background-color: var(--color-rosa); /* sustituye */
+}
+
+
+.bx{
+    font-size: 30px;
+    cursor: pointer;
+    transform:translateY(-36px);
+}
+
+.ojo{
+    display: flex;
+    justify-content: end;
+}
+.avatar{
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 2px;
+}
+
+.option{
+    width: 1%;
+}
